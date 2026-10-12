@@ -1,0 +1,14 @@
+{"question": "How do I reset my password?", "expected_source": "reset-password.md"}
+{"question": "The reset email never came, what should I do?", "expected_source": "reset-password.md"}
+{"question": "How do I turn on two-factor authentication?", "expected_source": "two-factor-auth.md"}
+{"question": "I lost my phone and my authenticator app, how can I log in?", "expected_source": "two-factor-auth.md"}
+{"question": "Can I get a refund on my monthly plan?", "expected_source": "billing-refunds.md"}
+{"question": "How long does a refund take to arrive?", "expected_source": "billing-refunds.md"}
+{"question": "How much storage does the free plan include?", "expected_source": "storage-limits.md"}
+{"question": "How long can a share link stay active?", "expected_source": "shared-links.md"}
+{"question": "What happens when I hit the API rate limit?", "expected_source": "api-rate-limits.md"}
+{"question": "How do I delete my account?", "expected_source": "delete-account.md"}
+{"question": "A free plan customer cannot upload a 3 GB video, what did we tell similar customers?", "expected_source": "ticket:T-1001", "role": "agent"}
+{"question": "Do you offer a student discount?", "expected_source": null}
+{"question": "Does NimbusDrive integrate with Salesforce?", "expected_source": null}
+{"question": "What is the capital of France?", "expected_source": null}

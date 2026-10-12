@@ -1,0 +1,8 @@
+ticket_id,subject,question,resolution
+T-1001,Cannot upload 3GB video,Upload fails at 100% for a 3 GB video on the free plan.,Free plan max file size is 2 GB. Advised upgrading to Plus (10 GB limit) or splitting the file.
+T-1002,Charged twice,I see two charges for my Plus subscription this month.,Duplicate charge caused by a payment retry after a bank timeout. Refunded the duplicate in the billing console and told the customer to expect 5 to 7 business days.
+T-1003,Locked out of 2FA,Lost my phone and have no backup codes so I cannot log in.,Verified identity with billing email and government ID. 2FA was disabled after 48 hours and the customer set up a new device and saved new backup codes.
+T-1004,API 429 errors,Getting 429 Too Many Requests on Plus with only 50 requests a minute.,Several scripts shared one account and together exceeded 100 requests per minute. Advised batching and honoring Retry-After. Offered Pro upgrade.
+T-1005,Share link expired,My shared link says expired after a week.,Default expiry in the share dialog is 7 days. Showed how to create a new link with a longer expiry up to 90 days.
+T-1006,Cannot reuse email after deleting account,Deleted my account yesterday but cannot sign up again with the same email.,Email stays reserved during the 30-day deletion grace period. Offered to cancel the deletion or wait.
+T-1007,Refund request after 20 days,Bought an annual plan 20 days ago and want a refund.,Outside the 14-day window. Team lead approved goodwill credit for switching to a monthly plan.

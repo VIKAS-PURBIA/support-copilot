@@ -1,0 +1,9 @@
+requests
+qdrant-client>=1.10
+rank-bm25>=0.2.2
+fastapi>=0.110
+uvicorn
+pydantic>=2
+streamlit>=1.30
+pytest>=7
+httpx
