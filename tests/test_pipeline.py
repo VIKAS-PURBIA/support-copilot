@@ -53,6 +53,8 @@ def env(tmp_path, monkeypatch):
         "STORAGE": tmp_path, "QDRANT_PATH": str(tmp_path / "qdrant"),
         "CHUNKS_JSON": tmp_path / "chunks.json", "EMBED_CACHE": tmp_path / "cache.json",
         "ESCALATIONS_FILE": tmp_path / "esc.jsonl", "MIN_VECTOR_SCORE": 0.2,
+        # Ensure the grader runs in pipeline tests, regardless of local/CI defaults.
+        "USE_GRADER": True,
     }.items():
         monkeypatch.setattr(cfg, name, value)
     fake = FakeLLM()
